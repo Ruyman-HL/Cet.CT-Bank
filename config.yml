@@ -1,0 +1,70 @@
+# -------------------------------------------------------------------------------------
+# -- Project: Cet.CT-Bank: A Postmortem Computed Tomography Imaging Data of Stranded 
+# --          Cetaceans from the Canary Islands
+# -- 
+# -- File:    config.yml
+# -- Module:  config
+# -- Author:  Ruymán Hernández-López <ruyman.hernandez@ulpgc.es>
+# -- Date:    10/06/2025
+# -- Version: 1.0
+# -- 
+# -- Citation: 
+# --    Suárez-Santana, C.M., Consoli, F., Rivero, M.A., Fernández, A. & 
+# --    Hernández-López, R. Cet.CT-Bank: Postmortem Computed Tomography Dataset of 
+# --    Stranded Cetaceans in the Canary Islands. Zenodo (v1). 
+# --    https://doi.org/10.5281/zenodo.19709352 (2026).
+# -- 
+# -- License: 
+# --    Creative Commons Attribution 4.0 International (CC BY 4.0).
+# --    This code is freely available for use, modification, and redistribution, 
+# --    including for commercial purposes, provided that appropriate credit is given 
+# --    to the original authors, a link to the license is provided, and any changes 
+# --    made are indicated. No additional restrictions may be applied that limit 
+# --    others from doing anything the license permits.
+# --    Full license text: https://creativecommons.org/licenses/by/4.0/
+# --    SPDX-License-Identifier: CC-BY-4.0
+# --    When reusing this code, please cite both the dataset and the associated 
+# --    publication (see below).
+# -- 
+# -- Funding:
+# --    This research was supported by the Universidad de Las Palmas de Gran Canaria 
+# --    under the competitive public funding programme PRECOMP03, grant reference 
+# --    SD-24/03, awarded to Principal Investigator Cristian Manuel Suárez Santana.
+# --    The contribution of R. Hernández-López was supported by the Research Training 
+# --    Personnel Programme of the Universidad de Las Palmas de Gran Canaria, 
+# --    Call 2023-2 (3rd phase), under reference FPI2024010053. This programme is 
+# --    sponsored by Banco Santander and funded by the Cabildo de Gran Canaria and 
+# --    the Ministerio de Ciencia, Innovación y Sociedad de la Información of the 
+# --    Gobierno de Canarias.
+# -- 
+# -- Published in:
+# --    Suárez-Santana, C.M., Consoli, F.M.A., Alonso-Almorox, P., Reyes-Matute, A., 
+# --    Arbelo, M., Hernández-López, R., Travieso-González, C.M., Rivero, M.A. & 
+# --    Fernández, A. Cet.CT-Bank: A Postmortem Computed Tomography Imaging Data of 
+# --    Stranded Cetaceans from the Canary Islands. Sci Data (2026).
+# --    DOI: https://doi.org/10.1038/s41597-026-07896-8
+# -- 
+# -- Description:
+# --    Configuration file for DICOM processing and project management. This file
+# --    defines the essential paths required for the application:
+# --    
+# --    - dicom_path: Specifies the directory containing DICOM files to be processed.
+# --      This should point to the root folder of the CT scan dataset.
+# --      Example: "D:/Data/Cetaceans/CT_Scans/Specimen_001"
+# --    
+# --    - projects_root_path: Defines the base directory where project data and 
+# --      outputs will be stored. Use "./" for the current working directory or
+# --      provide an absolute path for a specific location.
+# --      Example: "./projects" or "D:/Data/Projects"
+# --
+# -- Modifications:
+# --  Who:   <name><<email>>
+# --  Date:   <date>
+# --  Changes: <Indication of changes in this version>
+# -------------------------------------------------------------------------------------
+
+# dicom_path: Directory containing DICOM files to process
+dicom_path: ""
+
+# projects_root_path: Root directory for storing project data
+projects_root_path: "./"
